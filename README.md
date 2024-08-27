@@ -1,11 +1,3 @@
-# Mohammad Rafieian
-
-**Location:** Dallas, Texas 75252  
-**Phone:** 945-527-5229  
-**Email:** mohammad.rafieian@utdallas.edu  
-**LinkedIn:** [linkedin.com/in/mohammad-rafieian](https://www.linkedin.com/in/mohammad-rafieian/)  
-**GitHub:** [github.com/mohPYdev](https://github.com/mohPYdev)
-
 ## About Me
 
 I am a PhD candidate in Software Engineering at The University of Texas at Dallas, with a strong background in software security, machine learning, and software instrumentation. My research focuses on optimizing program analyzers using machine learning techniques, and I have hands-on experience in developing, testing, and enhancing program analysis tools.
