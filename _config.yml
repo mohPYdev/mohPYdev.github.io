@@ -19,7 +19,7 @@ header_pages:
 # Author Info
 author:
   name   : "Mohammad Rafieian"
-  avatar : "/assets/profile.jpg"
+  avatar : "assets/profile.jpg"
   bio    : "PhD Candidate in Software Engineering at The University of Texas at Dallas"
   location : "Dallas, Texas"
   email  : "Mohammad.Rafieian@utdallas.edu"
