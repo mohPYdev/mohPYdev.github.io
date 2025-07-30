@@ -8,22 +8,22 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-include:
-  - _pages
+# include:
+#   - _pages
 
 
-# Navigation
-header_pages:
-  - index.md
-  - _pages/about.md
-  - _pages/research.md
-  - _pages/projects.md
-  - _pages/contact.md
+# # Navigation
+# header_pages:
+#   - index.md
+#   - _pages/about.md
+#   - _pages/research.md
+#   - _pages/projects.md
+#   - _pages/contact.md
 
 # Author Info
 author:
   name   : "Mohammad Rafieian"
-  avatar : "assets/profile.jpg"
+  avatar : "/assets/profile.jpg"
   bio    : "PhD Candidate in Software Engineering at The University of Texas at Dallas"
   location : "Dallas, Texas"
   email  : "Mohammad.Rafieian@utdallas.edu"
