@@ -23,7 +23,7 @@ plugins:
 # Author Info
 author:
   name   : "Mohammad Rafieian"
-  avatar : "/assets/profile.jpg"
+  avatar : "/images/profile.jpg"
   bio    : "PhD Candidate in Software Engineering at The University of Texas at Dallas"
   location : "Dallas, Texas"
   email  : "Mohammad.Rafieian@utdallas.edu"
