@@ -8,6 +8,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+include:
+  - _pages
+
+
 # Navigation
 header_pages:
   - index.md
