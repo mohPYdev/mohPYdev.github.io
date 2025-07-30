@@ -5,7 +5,7 @@ author_profile: true   # ✅ makes profile photo & info show in sidebar
 ---
 
 ## 👋 About Me
-I am a **PhD candidate in Software Engineering** at **The University of Texas at Dallas**.  
+I am a **PhD Candidate in Software Engineering** at the **University of Texas at Dallas**, advised by **Dr. Shiyi Wei**.  
 My research focuses on **program analysis, software security, and machine learning for software engineering**.
 
 ---
