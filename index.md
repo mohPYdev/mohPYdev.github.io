@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Home"
+title: ""
 author_profile: true   # ✅ makes profile photo & info show in sidebar
 ---
 

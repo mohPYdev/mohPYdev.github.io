@@ -45,12 +45,3 @@ footer_links:
   - title: "Google Scholar"
     url: "https://scholar.google.com/citations?user=YOUR_ID"
     icon: fas fa-graduation-cap
-
-# Defaults for pages
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      author_profile: true
