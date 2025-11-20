@@ -6,14 +6,13 @@ author_profile: true   # ✅ makes profile photo & info show in sidebar
 
 ## 👋 About Me
 Full-Stack **Software Engineer** and **Ph.D. Researcher** with expertise in building scalable, secure systems. Experienced in architecting robust backend infrastructure and Dockerized deployment. Deep technical knowledge in **Program Analysis, Software Security**, and applying Machine Learning for automated vulnerability detection by **Static analysis, Fuzzing and Symbolic execution**.
----
+
 
 ## 🎓 Education
 - **PhD, Software Engineering** – University of Texas at Dallas (2023–Present, GPA: 3.8)
 advisor: Dr. Shiyi Wei
 - **B.Eng, Computer Engineering** – Isfahan University (2019–2023)
 
----
 
 ## Publications
 - “Is Call Graph Pruning Really Effective? An Empirical Re-evaluation”, M.Rafieian, et al., ICSE 2026.
@@ -30,7 +29,6 @@ advisor: Dr. Shiyi Wei
 **Frameworks:** Django, Flask, Node.js, React.js, ASM  
 **Developement Tools:** Git, Docker, Linux, Firebase, Vercel, PostgreSQL, Redis 
 
----
 
 ## 🏢 Experience
 
@@ -49,7 +47,6 @@ advisor: Dr. Shiyi Wei
 - Developed an automatic reservation system generator engine using MDSE approach.
 - Authored a journal paper, introducing my novel approach in autoamatically generating web application. 
 
----
 
 ## 🔬 Projects
 
@@ -79,9 +76,8 @@ advisor: Dr. Shiyi Wei
 - Improved model interpretability with Explanation-Guided Learning, boosting relevant line focus from 35% to 65%.
 - Enhanced model classification accuracy with Input×Gradient xAI method by 20%. 
 
----
 
-**Licenses**
+## Licenses
 
 - [AWS Cloud Technical Essentials - AWS](https://coursera.org/verify/DAB992JEG32H)
 - [Introduction to Cloud Computing - IBM](https://coursera.org/share/93a53cd502d9ed56161b9bc9b748a363)
