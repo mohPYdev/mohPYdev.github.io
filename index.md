@@ -18,7 +18,7 @@ advisor: Dr. Shiyi Wei
 - “Is Call Graph Pruning Really Effective? An Empirical Re-evaluation”, M.Rafieian, et al., ICSE 2026.
 - “An Empirical Study of Static Analysis-Based Variability Bug Detection”, A.Mordahl, M.Rafieian, et al., ISSTA 2026  (in submission).
 - “Improving ML-based Static Analysis Classification via Explainable AI”, S.Yerramreddy, M.Rafieian, et al., FSE 2026 (under review).
-- “Automatic Test Suites for Static Analysis Tools via Dynamic Analysis”, A.Mordahl, M.Rafieian, et al., OOPSLA 2026 (under review).
+- “Automatic Test Suites for Static Analysis Tools via Dynamic Analysis”, A.Mordahl, M.Rafieian, et al., ICST 2026 (in submission ).
 
 
 ## 💻 Skills
