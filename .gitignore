@@ -1,0 +1,32 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.log
+.cache/
+
+# Jekyll (if you decide to use it later)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+
+# Node modules (if you add any build tools)
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.local
+
