@@ -659,6 +659,63 @@ strong {
   font-style: italic;
 }
 
+/* Publications Section */
+.publications {
+  margin-bottom: 4rem;
+}
+
+.publications .subsection-title {
+  margin-top: 0;
+}
+
+/* Program Committee Section */
+.program-committee {
+  margin-top: 4rem;
+}
+
+.program-committee .subsection-title {
+  margin-top: 0;
+}
+
+.committee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 0;
+}
+
+.committee-item {
+  background: var(--bg-card);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(184, 148, 111, 0.2);
+  border-left: 4px solid var(--accent-secondary);
+  transition: all var(--transition-normal);
+}
+
+.committee-item:hover {
+  transform: translateX(10px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(166, 124, 82, 0.5);
+}
+
+.committee-badge {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  background: linear-gradient(135deg, #a67c52 0%, #8b6f4d 100%);
+  color: var(--text-primary);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.committee-item h4 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
 /* Experience Section */
 .experience-section {
   background: var(--bg-secondary);
