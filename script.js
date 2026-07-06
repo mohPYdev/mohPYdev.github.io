@@ -11,12 +11,78 @@
     }
 
     function init() {
+        renderPublications();
+        renderServices();
         initNavigation();
         initScrollAnimations();
         initSmoothScroll();
         initNavbarScroll();
         initParallax();
         initTypingEffect();
+    }
+
+    // Escape text before injecting into HTML
+    function esc(str) {
+        return String(str)
+            .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    // Format an author list, bolding the site owner's name
+    function formatAuthors(authors, owner) {
+        return authors.map(name =>
+            name === owner ? `<b>${esc(name)}</b>` : esc(name)
+        ).join(', ');
+    }
+
+    // Status label shown after the author list
+    function statusLabel(status) {
+        switch (status) {
+            case 'accepted':      return '(to appear)';
+            case 'under review':  return '(under review)';
+            case 'in submission': return '(in submission)';
+            default:              return '';   // "published" shows nothing
+        }
+    }
+
+    // Render Publications from window.PUBLICATIONS (data/site-data.js)
+    function renderPublications() {
+        const list = document.getElementById('publicationList');
+        if (!list || !Array.isArray(window.PUBLICATIONS)) return;
+        const owner = window.OWNER_NAME || 'Mohammad Rafieian';
+
+        const html = window.PUBLICATIONS
+            .filter(p => p.public !== false)
+            .map(p => {
+                const badge = esc(`${p.venue} ${p.year}`);
+                const status = statusLabel(p.status);
+                const statusHtml = status ? ` <span class="status">${status}</span>` : '';
+                const pdfHtml = p.pdf
+                    ? `<p class="publication-links"><a href="${esc(p.pdf)}" target="_blank" rel="noopener noreferrer">PDF</a></p>`
+                    : '';
+                return `
+                    <div class="publication-item">
+                        <div class="publication-badge">${badge}</div>
+                        <h4>&ldquo;${esc(p.title)}&rdquo;</h4>
+                        <p class="publication-authors">${formatAuthors(p.authors, owner)}${statusHtml}</p>
+                        ${pdfHtml}
+                    </div>`;
+            })
+            .join('');
+
+        list.innerHTML = html;
+    }
+
+    // Render Academic Service from window.SERVICES (data/site-data.js)
+    function renderServices() {
+        const list = document.getElementById('serviceList');
+        if (!list || !Array.isArray(window.SERVICES)) return;
+
+        list.innerHTML = window.SERVICES.map(s => `
+            <div class="committee-item">
+                <div class="committee-badge">${esc(String(s.year))}</div>
+                <h4>${esc(s.venue)} ${esc(s.role)}</h4>
+            </div>`).join('');
     }
 
     // Navigation Menu
@@ -284,7 +350,7 @@
 
     // Console message
     console.log('%c👋 Welcome!', 'font-size: 20px; color: #d4a574;');
-    console.log('%cMohammad Rafieian - PhD Candidate in Software Engineering', 'font-size: 14px; color: #c97d60;');
+    console.log('%cMohammad Rafieian — Ph.D. Candidate in Software Engineering & Security', 'font-size: 14px; color: #c97d60;');
 
 })();
 
